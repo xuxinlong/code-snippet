@@ -1,0 +1,198 @@
+.container.mobile,
+.container.pc-cont {
+	width: 1234px;
+	text-align: center;
+	font-size: 0;
+	box-shadow: 0 4px 8px 0 rgba(86,86,86,0.50);
+	padding: 16px 0;
+	margin: 0 auto 32px;
+
+
+	.snippet-title {
+		font-size: 36px;
+		font-weight: bold;
+		padding-bottom: 16px;
+		color: #6bea14;
+	}
+	.left,
+	.middle,
+	.right {
+		display: inline-block;
+		vertical-align: top;
+		text-align: left;
+		width: 375px;
+		box-shadow: 0 4px 8px 0 rgba(86,86,86,0.50);
+		background: #fff;
+	}
+	.code-item {
+		position: relative;
+		width: 100%;
+		
+		.code-title {
+			height: 34px;
+			line-height: 34px;
+			font-size: 18px;
+			font-weight: bold;
+			padding-left: 8px;
+			text-align: left;
+
+			span {
+				font-size: 18px;
+			}
+		}
+
+		.code-copy {
+			position: absolute;
+			top: 5px;
+			right: 5px;
+		    color: #fff;
+		    padding: 0px 8px;
+		    height: 24px;
+		    line-height: 24px;
+			background-color: #027de7;
+			border-radius: 2px;
+			cursor: pointer;
+		}
+	}
+	.left {
+		min-height: 667px;
+	}
+	.preview,
+	.middle {
+		height: 667px;
+		margin: 0 16px;
+
+		iframe {
+			width: 100%;
+			height: 100%;
+			box-shadow: 0 4px 8px 0 rgba(86,86,86,0.50);
+			border: 0;
+		}
+	}
+	.run-btn {
+		display: block;
+	    width: 120px;
+	    height: 40px;
+	    line-height: 40px;
+	    font-size: 18px;
+		text-align: center;
+		margin: 0 auto;
+		border-radius: 4px;
+		background-color: #027de7;
+		color: #fff;
+		font-weight: bold;
+		cursor: pointer;
+	}
+	.right {
+		min-height: 667px;
+		box-shadow: 0 4px 8px 0 rgba(86,86,86,0.50);
+
+		.run-btn {
+			margin-top: 60px;
+		}
+	}
+}
+.container.pc-cont {
+
+	.code {
+		text-align: center;
+		font-size: 0;
+		margin-bottom: 16px;
+	}
+	.code-item {
+		display: inline-block;
+		vertical-align: top;
+		width: 320px;
+		margin: 0 8px;
+		box-shadow: 0 4px 8px 0 rgba(86,86,86,0.50);
+		text-align: left;
+	}
+	.operate-cont {
+		display: inline-block;
+		vertical-align: top;
+		width: 190px;
+		height: 334px;
+		margin: 0 8px;
+		box-shadow: 0 4px 8px 0 rgba(86,86,86,0.50);
+		background: #fff;
+
+		.config-cont {
+			position: relative;
+			height: 266px;
+			overflow: auto;
+			padding: 8px;
+
+			.ui-multi-select {
+				display: block;
+				width: auto;
+				height: auto;
+				min-height: 24px;
+			    line-height: 24px;
+			    padding: 4px 4px;
+			    padding-right: 40px;
+			    border: 1px solid #acbaca;
+			    border-radius: 2px;
+			    color: #495362;
+			    background: #ffffff url('images1/tree-view/TriangleToBottom.png') no-repeat 340px 15px;
+
+			    .ui-multi-select-text {
+			    	position: relative !important;
+			    	text-align: left !important;
+			    }
+			}
+		}
+
+		.run-btn {
+			position: relative;
+			/*top: 280px;*/
+			margin-top: 4px;
+			display: inline-block;
+			vertical-align: middle;
+			width: 80px;
+			margin: 4px;
+		}
+	}
+	.preview {
+		width: 1200px;
+		height: 400px;
+	}
+}
+.ui-multi-select-options {
+    background: #FFFFFF;
+    box-shadow: 0 4px 8px 0 rgba(86,86,86,0.50);
+    border-radius: 2px;
+    border-radius: 2px;
+
+    .ui-item {
+		display: block;
+        position: relative;
+        height: 32px;
+        line-height: 32px;
+        cursor: pointer;
+        padding: 0 4px;
+    }
+}
+.edit-items {
+	text-align: left;
+
+	.edit-item {
+		display: block;
+
+		.edit-label {
+			text-align: left;
+			font-weight: bold;
+		}
+
+        .ui-input {
+            display: block;
+            font-size: 14px;
+            width: auto;
+            height: auto;
+			min-height: 24px;
+		    line-height: 24px;
+		    padding: 4px 4px;
+            border-radius: 2px;
+            border: 1px solid #acbaca;
+        }
+	}
+}
